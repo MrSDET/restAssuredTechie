@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class TC002_POST_Create {
 
     @Test
-    void create() {
+    public void create() {
         //specify base uri
         RestAssured.baseURI = "https://reqres.in/api";
 
